@@ -1,0 +1,31 @@
+
+@media (max-width: 630px) {
+    .color__wrapper .color__item {
+        width: 12rem;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .main__ {
+        height: calc(100vh - 6.25rem);
+    }
+
+    .footer__ {
+        height: 100px;
+        padding: 0 2rem;
+
+        justify-content: center;
+    }
+
+    .color__wrapper {
+        width: 100%;
+        flex-direction: column;
+
+        .color__item {
+            width: 100%;
+            margin: 0.5rem 0;
+            border-radius: 0.75rem;
+        }
+    }
+}
